@@ -22,23 +22,10 @@ const titles = {
     'price' : 'ціна'
 };
 
-const init = {
-    'nomer_dogovora' : '',
-    'FIO' :  '',
-    'RNOO' : '',
-    'nomer_pasporta' : '',
-    'vidaniy' : '',
-    'date' : '',
-    'propiska' : '',
-    'number' : '',
-    'FIO_KOROTKO' : '',
-    'Nomer_dogovory_vid_date' : '',
-    'marka' : '',
-    'model' : '',
-    'year' : '',
-    'VIN' : '',
-    'price' : ''
-}
+const init = {};
+Object.keys(titles).forEach(key => {
+    init[key] = '';
+});
 
 const initialData = () => {
     const data = localStorage.getItem('data');
