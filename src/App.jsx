@@ -83,7 +83,10 @@ function App() {
           <button style={{marginTop: 12 }} onClick={() => {
               setData({...init})
             }}>Очистити</button>
-          <input type="file" id="actual-btn" style={{marginTop: 12, marginLeft: 12 }} onChange={handleFileUpload}/>
+          <input
+              onClick={(e) => {
+                e.target.value = null;
+            }} type="file" id="actual-btn" style={{marginTop: 12, marginLeft: 12 }} onChange={handleFileUpload}/>
       </>
   )
 }
