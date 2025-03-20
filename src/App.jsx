@@ -84,7 +84,7 @@ function App() {
           {Object.keys(data).map((key) => {
               return (
                   <div key={key} style={{display: 'flex', justifyContent: 'flex-start', marginTop: 12}}>
-                      <label style={{width: 220}}>{titles[key]}</label>
+                      <label style={{width: 300}}>{titles[key]}</label>
                       <input style={{ width: 900}} type="text" value={data[key]} onChange={(e) => {
                           setData({...data, [key]: e.target.value})
                       }}/>
