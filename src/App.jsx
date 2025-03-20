@@ -87,7 +87,7 @@ function App() {
               return (
                   <div key={key} style={{display: 'flex', justifyContent: 'flex-start', marginTop: 12}}>
                       <label style={{width: 220}}>{titles[key]}</label>
-                      <input type="text" value={data[key]} onChange={(e) => {
+                      <input style={{ width: 900}} type="text" value={data[key]} onChange={(e) => {
                           setData({...data, [key]: e.target.value})
                       }}/>
                   </div>
