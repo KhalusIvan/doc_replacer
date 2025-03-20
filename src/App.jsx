@@ -29,7 +29,7 @@ const titles = {
     'model' : 'Модель',
     'year' : 'Рік',
     'VIN' : 'ВІН',
-    'price' : 'ціна'
+    'price' : 'Ціна'
 };
 
 const init = {};
