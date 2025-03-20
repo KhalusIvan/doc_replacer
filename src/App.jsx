@@ -21,6 +21,7 @@ const titles = {
     'nomer_pasporta' : 'Номер паспорта',
     'vidaniy' : 'Виданий',
     'date' : 'Дата',
+    'date2': 'Дата + 6 місяців',
     'propiska' : 'Прописка',
     'number' : 'Номер',
     'FIO_KOROTKO' : 'ФІО коротко',
