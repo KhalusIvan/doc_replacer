@@ -4,6 +4,16 @@ import Docxtemplater from 'docxtemplater';
 import PizZip from 'pizzip';
 import './App.css'
 
+/*
+npm run dev
+
+git add .
+git commit -m 'message'
+git push origin main
+
+npm run deploy
+*/
+
 const titles = {
     'nomer_dogovora' : 'Номер договора',
     'FIO' :  'ФІО',
