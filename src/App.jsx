@@ -19,7 +19,8 @@ const titles = {
     'FIO' :  'Фамілія Імʼя По-батькові',
     'RNOO' : 'Код платника податків',
     'nomer_pasporta' : 'Номер паспорта',
-    'vidaniy' : 'Орган та дата видачі паспорта',
+    'vidaniy' : 'Ким виданий паспорт',
+    'date_vidachi' : 'Дата видачі паспорта',
     'date' : 'Дата договору',
     'date2': 'Дата + 6 місяців у форм. хх.хх.хххх',
     'propiska' : 'Місце реєстрації клієнта',
@@ -75,7 +76,7 @@ function App() {
                     type: 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'
                 });
 
-                saveAs(updatedBlob, 'updated.docx');
+                saveAs(updatedBlob, 'ДОГОВІР_ЯКИЙ?_НОМЕРДОГОВОРУ_ФАМІЛІЯ_ІМЯ_ПОБАТЬКОВІ.docx');
             } catch (error) {
                 console.error('Error processing DOCX:', error);
             }
